@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leilao List</title>
+</head>
+<body>
+  <h1>Leilao List</h1>
+
+  <ul>
+    <% Leilao.forEach(Leilao => { %>
+      <li><%= Leilao.produto %></li>
+    <% }); %>
+  </ul>
+</body>
+</html>
